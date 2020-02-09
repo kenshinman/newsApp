@@ -27,6 +27,12 @@ const TopTabs = () => {
       <Tab.Screen name="Tab2" options={{
         tabBarLabel: "Second Tab"
       }} component={TabContent} />
+      <Tab.Screen name="Tab3" options={{
+        tabBarLabel: "Second Tab"
+      }} component={TabContent} />
+      <Tab.Screen name="Tab4" options={{
+        tabBarLabel: "Second Tab"
+      }} component={TabContent} />
     </Tab.Navigator>
   );
 };

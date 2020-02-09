@@ -3,6 +3,9 @@ import { ActivityIndicator, StatusBar, Platform, View } from 'react-native';
 import RootNavigator from './src/config/RootNavigator';
 import * as Font from 'expo-font';
 import { Ionicons } from "@expo/vector-icons"
+import getTheme from './native-base-theme/components';
+import material from './native-base-theme/variables/material';
+import { StyleProvider } from "native-base"
 
 export default function App () {
   const [loading, setLoading] = useState(true);
@@ -29,10 +32,11 @@ export default function App () {
   }
 
   return (
-    <>
-      <View style={{ height: Platform.select({ android: StatusBar.currentHeight }) }}></View>
-      <RootNavigator />
-    </>
+    <StyleProvider style={getTheme(material)}>
+      <>
+        <RootNavigator />
+      </>
+    </StyleProvider>
   );
 }
 
