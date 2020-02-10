@@ -2,10 +2,10 @@ import React from 'react';
 import {
   createMaterialTopTabNavigator,
 } from '@react-navigation/material-top-tabs';
-import { Container, Content, Text, Icon } from 'native-base';
+import {Container, Content, Text, Icon} from 'native-base';
 import TabContent from './TabContent';
 
-const Tab = createMaterialTopTabNavigator();
+const Tab = createMaterialTopTabNavigator ();
 
 const TopTabs = () => {
   return (
@@ -13,26 +13,31 @@ const TopTabs = () => {
       swipeEnabled={true}
       tabBarOptions={{
         activeTintColor: '#fff',
-        labelStyle: { fontSize: 14 },
-        style: { backgroundColor: '#0984e3' },
+        labelStyle: {fontSize: 14},
+        style: {backgroundColor: '#0984e3'},
       }}
     >
       <Tab.Screen
         name="Tab1"
         options={{
-          tabBarLabel: "First Tab"
+          tabBarLabel: 'News',
         }}
         component={TabContent}
       />
-      <Tab.Screen name="Tab2" options={{
-        tabBarLabel: "Second Tab"
-      }} component={TabContent} />
-      <Tab.Screen name="Tab3" options={{
-        tabBarLabel: "Second Tab"
-      }} component={TabContent} />
-      <Tab.Screen name="Tab4" options={{
-        tabBarLabel: "Second Tab"
-      }} component={TabContent} />
+      <Tab.Screen
+        name="Tab2"
+        options={{
+          tabBarLabel: 'Favourites',
+        }}
+        component={TabContent}
+      />
+      <Tab.Screen
+        name="Tab3"
+        options={{
+          tabBarLabel: 'Second Tab',
+        }}
+        component={TabContent}
+      />
     </Tab.Navigator>
   );
 };
