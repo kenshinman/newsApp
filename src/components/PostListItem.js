@@ -5,7 +5,10 @@ import HTML from 'react-native-render-html';
 
 const PostListItem = ({post, navigation}) => {
   return (
-    <TouchableOpacity onPress={() => alert ('alert')}>
+    <TouchableOpacity
+      onPress={() =>
+        navigation.navigate ('Post', {id: post.id, slug: post.slug})}
+    >
       <Card style={{paddingVertical: 10}}>
         <CardItem style={{paddingRight: 10, paddingLeft: 10}}>
           <Body>

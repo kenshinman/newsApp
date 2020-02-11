@@ -7,7 +7,6 @@ import ScreenLoader from '../../../components/ScreenLoader';
 
 const TabContent = ({navigation}) => {
   const {posts, loading} = useContext (PostsContext);
-  console.log ({posts, loading});
 
   if (loading) {
     return <ScreenLoader />;
