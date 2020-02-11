@@ -71,7 +71,7 @@ const SinglePost = ({navigation, route}) => {
     [route.params.id, route.params.slug]
   );
 
-  if (loading) {
+  if (loading || !post) {
     return <ScreenLoader />;
   }
 
@@ -83,21 +83,20 @@ const SinglePost = ({navigation, route}) => {
     return (
       <Container>
         <Header>
-          <Left>
+          <Left style={{flexDirection: 'row', alignItems: 'center'}}>
             <Button transparent onPress={() => navigation.goBack ()}>
               <Icon name="arrow-back" />
             </Button>
+            <Title style={{marginLeft: 10}}>Post</Title>
           </Left>
-          <Body>
-            <Title>Post</Title>
-          </Body>
+          <Body />
         </Header>
         <Content>
           <Image
             source={{uri: post.x_featured_media_medium}}
             style={{width: '100%', height: 280}}
           />
-          <Text>{JSON.stringify (route)}</Text>
+
           <HTML
             classesStyles={{
               title: {

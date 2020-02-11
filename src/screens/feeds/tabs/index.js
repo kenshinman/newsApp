@@ -4,6 +4,7 @@ import {
 } from '@react-navigation/material-top-tabs';
 import {Container, Content, Text, Icon} from 'native-base';
 import TabContent from './TabContent';
+import Favourites from './Favourites';
 
 const Tab = createMaterialTopTabNavigator ();
 
@@ -25,18 +26,11 @@ const TopTabs = () => {
         component={TabContent}
       />
       <Tab.Screen
-        name="Tab2"
+        name="Favourites"
         options={{
           tabBarLabel: 'Favourites',
         }}
-        component={TabContent}
-      />
-      <Tab.Screen
-        name="Tab3"
-        options={{
-          tabBarLabel: 'Second Tab',
-        }}
-        component={TabContent}
+        component={Favourites}
       />
     </Tab.Navigator>
   );
