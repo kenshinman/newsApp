@@ -1,0 +1,480 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:1:1-48:12
+MERGED from [:expo-permissions] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-react-native-adapter] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.61.5.aar/19f6b07ff352624a74e57ca9012f8c23/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/00257e3a38e71cfbae771c74e62751a3/AndroidManifest.xml:17:1-22:12
+MERGED from [:expo-app-loader-provider] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-app-loader-provider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-constants] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-error-recovery] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-error-recovery/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-file-system] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-30:12
+MERGED from [:expo-font] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-keep-awake] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-linear-gradient] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-location] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-21:12
+MERGED from [:expo-sqlite] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-sqlite/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-web-browser] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-web-browser/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-barcode-scanner-interface] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-camera-interface] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-constants-interface] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-face-detector-interface] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-file-system-interface] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-font-interface] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-permissions-interface] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-task-manager-interface] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-core] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-image-loader-interface] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-sensors-interface] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [org.webkit:android-jsc:r245459] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/android-jsc-r245459.aar/3df3c6af63a91299dd99f64d47d1f022/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.browser:browser:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/browser-1.0.0.aar/5c5b888b2894b7ec959c9db0f03183a0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-play-services-location-16.0.0.aar/d6a302ea5a55aa64cdcc9c558756167a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/61a8f76ea3ad753f057a1074d4952c82/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/42d81d491e9cf21f4f8996c94b4e2a40/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/40c3ed4564752c267e94dc6c1d799ae7/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/d0d4e9345c296d8768e1365f3edc39c9/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/1616a26e4e1c651d7f151891ee8cff66/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.9.0.aar/f0e3000d2d2705ae8d856d1277a811aa/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/4ed04cddb4aa0af1b73a4ef848ff96af/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/ebbdaa31460ed8aad9573a9f1316c163/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/1c8ab668451dee0ba54314a33c915f8c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/2be2aa5fc866ac5c1a05611828dd3644/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.1.aar/699045d05ab4425520a6d9810f9b3845/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/eafd8d5e37cf1647d673613e91f63b6f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/9c8918c2c8e4948f3c31949cca769d2b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/492f8f540ebea628b7390d9919f69fff/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/9796083e0b094db4cbd333ecf9460e0c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/366ccc935fc1810d0b51eb480f566b52/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/e092571e7ac7e6599b549545da631bd6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/bedf507063c071b05c8105ddf533bdd5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/53f6c4eb9713a770bdd67032cdb45f74/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/ff16bc1d7d9caebba6f6e8ac6b37b490/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/2a1b838d60db18365bfb985df09dd1fc/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/e4a99fa06a6a6dfbdf60a941819075ea/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/fecd0e0a430df6912d92dae20f2eb92f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/1cd39212ea97c9d91bc1e780ed93b792/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/df514ced578f11cbb5fadd5963b759eb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/79fcbf23ce8d86734281eb868fb88eeb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/631feef5d866781b1f56a07e996d9e76/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/5f9ccd4239381c70a8df9654471297df/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/7b70e0d0aeffbb42b2507aa49e1e590e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/e4ee3b107713ae73101b2dd8152b838d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/e324bdb0f44ff8e0c6c481d2544c6e0d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/3693c8c9f3c0004761d68bd56f3416b8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.9.0.aar/c5f17476e85bd66668e83f882ffba24c/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/fresco-2.0.0.aar/1f9d6ce37722dbfd994a38dc4672c23d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-2.0.0.aar/1db240206525bc0d3d345e94bfd6bed4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/drawee-2.0.0.aar/4d95b3da9351a87586f06f1bf6951db7/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/nativeimagefilters-2.0.0.aar/01a160d48dd9efffdabc6ad6a8f90405/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/imagepipeline-2.0.0.aar/9f8e836bfab2b6dd3663bc30397883e6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/nativeimagetranscoder-2.0.0.aar/dc402886cd8d04fe2b88a8d57c3f54e0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-2.0.0.aar/4a741a1c4e58bd01c192fe8ae83a0948/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/3ef39051911851b4db0aebdca2802a6c/AndroidManifest.xml:2:1-13:12
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/33ce785896ad5aaefd098834589c64ea/AndroidManifest.xml:2:1-30:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-fbcore-2.0.0.aar/82369c44542e827c0067e96f29efbeb9/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:1:1-48:12
+	package
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:2:5-26
+		INJECTED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:1:1-48:12
+		INJECTED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:1:1-48:12
+		INJECTED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:expo-file-system] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
+MERGED from [:expo-file-system] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:5:22-75
+uses-permission#android.permission.MANAGE_DOCUMENTS
+ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:8:5-75
+	android:name
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:8:22-72
+uses-permission#android.permission.READ_INTERNAL_STORAGE
+ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:9:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:10:22-72
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:11:5-74
+	android:name
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:11:22-71
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:12:5-66
+	android:name
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:12:22-63
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:13:22-77
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:16:5-81
+MERGED from [:expo-location] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-81
+MERGED from [:expo-location] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/33ce785896ad5aaefd098834589c64ea/AndroidManifest.xml:12:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/33ce785896ad5aaefd098834589c64ea/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:16:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:17:5-79
+MERGED from [:expo-location] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-79
+MERGED from [:expo-location] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/33ce785896ad5aaefd098834589c64ea/AndroidManifest.xml:14:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/33ce785896ad5aaefd098834589c64ea/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:17:22-76
+uses-permission#android.permission.CAMERA
+ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:18:5-65
+	android:name
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:18:22-62
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:19:5-72
+	android:name
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:19:22-69
+uses-permission#android.permission.READ_CALENDAR
+ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:20:5-72
+	android:name
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:20:22-69
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:21:5-73
+	android:name
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:21:22-70
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:22:5-80
+MERGED from [:expo-file-system] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
+MERGED from [:expo-file-system] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:22:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:23:5-71
+	android:name
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:23:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:24:5-81
+MERGED from [:expo-file-system] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
+MERGED from [:expo-file-system] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:24:22-78
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:25:5-73
+	android:name
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:25:22-70
+application
+ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:28:5-46:19
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.61.5.aar/19f6b07ff352624a74e57ca9012f8c23/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.61.5.aar/19f6b07ff352624a74e57ca9012f8c23/AndroidManifest.xml:11:5-20
+MERGED from [:expo-file-system] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-28:19
+MERGED from [:expo-file-system] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-28:19
+MERGED from [:expo-location] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-19:19
+MERGED from [:expo-location] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-19:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-play-services-location-16.0.0.aar/d6a302ea5a55aa64cdcc9c558756167a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-play-services-location-16.0.0.aar/d6a302ea5a55aa64cdcc9c558756167a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/61a8f76ea3ad753f057a1074d4952c82/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/61a8f76ea3ad753f057a1074d4952c82/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/42d81d491e9cf21f4f8996c94b4e2a40/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/42d81d491e9cf21f4f8996c94b4e2a40/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/40c3ed4564752c267e94dc6c1d799ae7/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/40c3ed4564752c267e94dc6c1d799ae7/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/d0d4e9345c296d8768e1365f3edc39c9/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/d0d4e9345c296d8768e1365f3edc39c9/AndroidManifest.xml:22:5-26:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.9.0.aar/f0e3000d2d2705ae8d856d1277a811aa/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.9.0.aar/f0e3000d2d2705ae8d856d1277a811aa/AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.0.1] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/2a1b838d60db18365bfb985df09dd1fc/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/2a1b838d60db18365bfb985df09dd1fc/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/e4a99fa06a6a6dfbdf60a941819075ea/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/e4a99fa06a6a6dfbdf60a941819075ea/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.9.0.aar/c5f17476e85bd66668e83f882ffba24c/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.9.0.aar/c5f17476e85bd66668e83f882ffba24c/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/3ef39051911851b4db0aebdca2802a6c/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/3ef39051911851b4db0aebdca2802a6c/AndroidManifest.xml:11:5-20
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/33ce785896ad5aaefd098834589c64ea/AndroidManifest.xml:18:5-28:19
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/33ce785896ad5aaefd098834589c64ea/AndroidManifest.xml:18:5-28:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/2a1b838d60db18365bfb985df09dd1fc/AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:30:7-39
+	android:roundIcon
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:32:7-52
+	android:icon
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:31:7-41
+	android:allowBackup
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:33:7-34
+	android:theme
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:34:7-38
+	android:name
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:29:7-38
+activity#com.baseapp.MainActivity
+ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:35:7-44:18
+	android:label
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:37:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:39:9-51
+	android:configChanges
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:38:9-79
+	android:name
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:36:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:40:9-43:25
+action#android.intent.action.MAIN
+ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:41:13-65
+	android:name
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:41:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:42:13-73
+	android:name
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:42:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:45:7-84
+	android:name
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml:45:17-81
+uses-sdk
+INJECTED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml
+MERGED from [:expo-permissions] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-react-native-adapter] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-react-native-adapter] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.61.5.aar/19f6b07ff352624a74e57ca9012f8c23/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.61.5.aar/19f6b07ff352624a74e57ca9012f8c23/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/00257e3a38e71cfbae771c74e62751a3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/00257e3a38e71cfbae771c74e62751a3/AndroidManifest.xml:20:5-44
+MERGED from [:expo-app-loader-provider] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-app-loader-provider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-app-loader-provider] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-app-loader-provider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-error-recovery] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-error-recovery/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-error-recovery] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-error-recovery/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-file-system] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-file-system] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-font] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-font] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-linear-gradient] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-linear-gradient] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-location] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-location] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sqlite] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-sqlite/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sqlite] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-sqlite/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-web-browser] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-web-browser/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-web-browser] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-web-browser/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/android-jsc-r245459.aar/3df3c6af63a91299dd99f64d47d1f022/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/android-jsc-r245459.aar/3df3c6af63a91299dd99f64d47d1f022/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.browser:browser:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/browser-1.0.0.aar/5c5b888b2894b7ec959c9db0f03183a0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/browser-1.0.0.aar/5c5b888b2894b7ec959c9db0f03183a0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-play-services-location-16.0.0.aar/d6a302ea5a55aa64cdcc9c558756167a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-play-services-location-16.0.0.aar/d6a302ea5a55aa64cdcc9c558756167a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/61a8f76ea3ad753f057a1074d4952c82/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/61a8f76ea3ad753f057a1074d4952c82/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/42d81d491e9cf21f4f8996c94b4e2a40/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/42d81d491e9cf21f4f8996c94b4e2a40/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/40c3ed4564752c267e94dc6c1d799ae7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/40c3ed4564752c267e94dc6c1d799ae7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/d0d4e9345c296d8768e1365f3edc39c9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/d0d4e9345c296d8768e1365f3edc39c9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/1616a26e4e1c651d7f151891ee8cff66/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/1616a26e4e1c651d7f151891ee8cff66/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.9.0.aar/f0e3000d2d2705ae8d856d1277a811aa/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.9.0.aar/f0e3000d2d2705ae8d856d1277a811aa/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/4ed04cddb4aa0af1b73a4ef848ff96af/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/4ed04cddb4aa0af1b73a4ef848ff96af/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/ebbdaa31460ed8aad9573a9f1316c163/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/ebbdaa31460ed8aad9573a9f1316c163/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/1c8ab668451dee0ba54314a33c915f8c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/1c8ab668451dee0ba54314a33c915f8c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/2be2aa5fc866ac5c1a05611828dd3644/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/2be2aa5fc866ac5c1a05611828dd3644/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.1.aar/699045d05ab4425520a6d9810f9b3845/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.1.aar/699045d05ab4425520a6d9810f9b3845/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/eafd8d5e37cf1647d673613e91f63b6f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/eafd8d5e37cf1647d673613e91f63b6f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/9c8918c2c8e4948f3c31949cca769d2b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/9c8918c2c8e4948f3c31949cca769d2b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/492f8f540ebea628b7390d9919f69fff/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/492f8f540ebea628b7390d9919f69fff/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/9796083e0b094db4cbd333ecf9460e0c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/9796083e0b094db4cbd333ecf9460e0c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/366ccc935fc1810d0b51eb480f566b52/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/366ccc935fc1810d0b51eb480f566b52/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/e092571e7ac7e6599b549545da631bd6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/e092571e7ac7e6599b549545da631bd6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/bedf507063c071b05c8105ddf533bdd5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/bedf507063c071b05c8105ddf533bdd5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/53f6c4eb9713a770bdd67032cdb45f74/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/53f6c4eb9713a770bdd67032cdb45f74/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/ff16bc1d7d9caebba6f6e8ac6b37b490/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/ff16bc1d7d9caebba6f6e8ac6b37b490/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/2a1b838d60db18365bfb985df09dd1fc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/2a1b838d60db18365bfb985df09dd1fc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/e4a99fa06a6a6dfbdf60a941819075ea/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/e4a99fa06a6a6dfbdf60a941819075ea/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/fecd0e0a430df6912d92dae20f2eb92f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/fecd0e0a430df6912d92dae20f2eb92f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/1cd39212ea97c9d91bc1e780ed93b792/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/1cd39212ea97c9d91bc1e780ed93b792/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/df514ced578f11cbb5fadd5963b759eb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/df514ced578f11cbb5fadd5963b759eb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/79fcbf23ce8d86734281eb868fb88eeb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/79fcbf23ce8d86734281eb868fb88eeb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/631feef5d866781b1f56a07e996d9e76/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/631feef5d866781b1f56a07e996d9e76/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/5f9ccd4239381c70a8df9654471297df/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/5f9ccd4239381c70a8df9654471297df/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/7b70e0d0aeffbb42b2507aa49e1e590e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/7b70e0d0aeffbb42b2507aa49e1e590e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/e4ee3b107713ae73101b2dd8152b838d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/e4ee3b107713ae73101b2dd8152b838d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/e324bdb0f44ff8e0c6c481d2544c6e0d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/e324bdb0f44ff8e0c6c481d2544c6e0d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/3693c8c9f3c0004761d68bd56f3416b8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/3693c8c9f3c0004761d68bd56f3416b8/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.9.0.aar/c5f17476e85bd66668e83f882ffba24c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.9.0.aar/c5f17476e85bd66668e83f882ffba24c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/fresco-2.0.0.aar/1f9d6ce37722dbfd994a38dc4672c23d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/fresco-2.0.0.aar/1f9d6ce37722dbfd994a38dc4672c23d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-2.0.0.aar/1db240206525bc0d3d345e94bfd6bed4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-2.0.0.aar/1db240206525bc0d3d345e94bfd6bed4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/drawee-2.0.0.aar/4d95b3da9351a87586f06f1bf6951db7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/drawee-2.0.0.aar/4d95b3da9351a87586f06f1bf6951db7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/nativeimagefilters-2.0.0.aar/01a160d48dd9efffdabc6ad6a8f90405/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/nativeimagefilters-2.0.0.aar/01a160d48dd9efffdabc6ad6a8f90405/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/imagepipeline-2.0.0.aar/9f8e836bfab2b6dd3663bc30397883e6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/imagepipeline-2.0.0.aar/9f8e836bfab2b6dd3663bc30397883e6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/nativeimagetranscoder-2.0.0.aar/dc402886cd8d04fe2b88a8d57c3f54e0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/nativeimagetranscoder-2.0.0.aar/dc402886cd8d04fe2b88a8d57c3f54e0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-2.0.0.aar/4a741a1c4e58bd01c192fe8ae83a0948/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-2.0.0.aar/4a741a1c4e58bd01c192fe8ae83a0948/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/3ef39051911851b4db0aebdca2802a6c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/3ef39051911851b4db0aebdca2802a6c/AndroidManifest.xml:7:5-9:41
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/33ce785896ad5aaefd098834589c64ea/AndroidManifest.xml:8:5-10:41
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/33ce785896ad5aaefd098834589c64ea/AndroidManifest.xml:8:5-10:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-fbcore-2.0.0.aar/82369c44542e827c0067e96f29efbeb9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-fbcore-2.0.0.aar/82369c44542e827c0067e96f29efbeb9/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kenshinman/Desktop/react-native/fuelApp/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.STORAGE
+ADDED from [:expo-file-system] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from [:expo-file-system] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-63
+provider#expo.modules.filesystem.FileSystemFileProvider
+ADDED from [:expo-file-system] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-27:20
+	android:grantUriPermissions
+		ADDED from [:expo-file-system] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-47
+	android:authorities
+		ADDED from [:expo-file-system] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-74
+	android:exported
+		ADDED from [:expo-file-system] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-37
+	tools:replace
+		ADDED from [:expo-file-system] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-48
+	android:name
+		ADDED from [:expo-file-system] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-74
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:expo-file-system] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:70
+	android:resource
+		ADDED from [:expo-file-system] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-67
+	android:name
+		ADDED from [:expo-file-system] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:expo-location] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from [:expo-location] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-74
+service#expo.modules.location.services.LocationTaskService
+ADDED from [:expo-location] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-18:40
+	android:exported
+		ADDED from [:expo-location] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:expo-location] /Users/kenshinman/Desktop/react-native/fuelApp/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/61a8f76ea3ad753f057a1074d4952c82/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/61a8f76ea3ad753f057a1074d4952c82/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/61a8f76ea3ad753f057a1074d4952c82/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/61a8f76ea3ad753f057a1074d4952c82/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/d0d4e9345c296d8768e1365f3edc39c9/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/d0d4e9345c296d8768e1365f3edc39c9/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/d0d4e9345c296d8768e1365f3edc39c9/AndroidManifest.xml:24:13-58
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/33ce785896ad5aaefd098834589c64ea/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/33ce785896ad5aaefd098834589c64ea/AndroidManifest.xml:13:22-76
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/33ce785896ad5aaefd098834589c64ea/AndroidManifest.xml:15:5-98
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/33ce785896ad5aaefd098834589c64ea/AndroidManifest.xml:15:22-95
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/33ce785896ad5aaefd098834589c64ea/AndroidManifest.xml:16:5-94
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/33ce785896ad5aaefd098834589c64ea/AndroidManifest.xml:16:22-91
+service#io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/33ce785896ad5aaefd098834589c64ea/AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/33ce785896ad5aaefd098834589c64ea/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/33ce785896ad5aaefd098834589c64ea/AndroidManifest.xml:20:13-132
+service#io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/33ce785896ad5aaefd098834589c64ea/AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/33ce785896ad5aaefd098834589c64ea/AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/33ce785896ad5aaefd098834589c64ea/AndroidManifest.xml:23:13-127
+service#io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/33ce785896ad5aaefd098834589c64ea/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/33ce785896ad5aaefd098834589c64ea/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/kenshinman/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/33ce785896ad5aaefd098834589c64ea/AndroidManifest.xml:26:13-120
