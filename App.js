@@ -7,6 +7,7 @@ import getTheme from './native-base-theme/components';
 import material from './native-base-theme/variables/material';
 import {StyleProvider} from 'native-base';
 import PostsContextProvider from './src/contexts/PostsContext';
+import ScreenLoader from './src/components/ScreenLoader';
 
 export default function App () {
   const [loading, setLoading] = useState (true);
@@ -25,11 +26,7 @@ export default function App () {
   }, []);
 
   if (loading) {
-    return (
-      <View>
-        <ActivityIndicator animating={true} size="large" />
-      </View>
-    );
+    return <ScreenLoader />;
   }
 
   return (

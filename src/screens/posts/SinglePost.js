@@ -71,59 +71,50 @@ const SinglePost = ({navigation, route}) => {
     [route.params.id, route.params.slug]
   );
 
-  if (loading || !post) {
-    return <ScreenLoader />;
-  }
-
   if (error) {
     return <View><Text>Error: {JSON.stringify (error)}</Text></View>;
   }
 
-  if (post) {
-    return (
-      <Container>
-        <Header>
-          <Left style={{flexDirection: 'row', alignItems: 'center'}}>
-            <Button transparent onPress={() => navigation.goBack ()}>
-              <Icon name="arrow-back" />
-            </Button>
-            <Title style={{marginLeft: 10}}>Post</Title>
-          </Left>
-          <Body />
-        </Header>
-        <Content>
-          <Image
-            source={{uri: post.x_featured_media_medium}}
-            style={{width: '100%', height: 280}}
-          />
-
-          <HTML
-            classesStyles={{
-              title: {
-                fontSize: 18,
-              },
-              htmlContent: {
-                padding: 10,
-              },
-            }}
-            tagsStyles={{
-              p: {
-                fontWeight: '300',
-                lineHeight: 24,
-                marginBottom: 20,
-              },
-            }}
-            onLinkPress={handleLinkPress}
-            html={`<div class="htmlContent"><h3 class="title">${post.title.rendered}</h3>${post.content.rendered}</div>`}
-          />
-        </Content>
-      </Container>
-    );
-  }
   return (
-    <View>
-      <Text>Nothing</Text>
-    </View>
+    <Container>
+      <Header>
+        <Left style={{flexDirection: 'row', alignItems: 'center'}}>
+          <Button transparent onPress={() => navigation.goBack ()}>
+            <Icon name="arrow-back" />
+          </Button>
+          <Title style={{marginLeft: 10}}>Post</Title>
+        </Left>
+        <Body />
+      </Header>
+      {loading || !post
+        ? <ScreenLoader />
+        : <Content>
+            <Image
+              source={{uri: post.x_featured_media_medium}}
+              style={{width: '100%', height: 280}}
+            />
+
+            <HTML
+              classesStyles={{
+                title: {
+                  fontSize: 18,
+                },
+                htmlContent: {
+                  padding: 10,
+                },
+              }}
+              tagsStyles={{
+                p: {
+                  fontWeight: '300',
+                  lineHeight: 24,
+                  marginBottom: 20,
+                },
+              }}
+              onLinkPress={handleLinkPress}
+              html={`<div class="htmlContent"><h3 class="title">${post.title.rendered}</h3>${post.content.rendered}</div>`}
+            />
+          </Content>}
+    </Container>
   );
 };
 

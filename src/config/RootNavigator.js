@@ -1,5 +1,5 @@
 import React from 'react';
-import {NavigationContainer} from '@react-navigation/native';
+import {NavigationContainer, useLinking} from '@react-navigation/native';
 import {createDrawerNavigator} from '@react-navigation/drawer';
 import {View, Text, StyleSheet, ScrollView, Image} from 'react-native';
 import HomeScreen from '../screens/HomeScreen';
@@ -19,15 +19,39 @@ const drawerContent = () => {
       </View>
       <ScrollView style={styles.drawerBottom}>
         <Text>Hey</Text>
-        <Text>Hey</Text>
       </ScrollView>
     </View>
   );
 };
 
 const RootNavigator = () => {
+  const ref = React.useRef ();
+
+  const {getInitialState} = useLinking (ref, {
+    prefixes: ['https://punchng.com'],
+  });
+
+  const [isReady, setIsReady] = React.useState (false);
+  const [initialState, setInitialState] = React.useState ();
+
+  React.useEffect (
+    () => {
+      getInitialState ().catch (() => {}).then (state => {
+        if (state !== undefined) {
+          setInitialState (state);
+        }
+
+        setIsReady (true);
+      });
+    },
+    [getInitialState]
+  );
+
+  if (!isReady) {
+    return null;
+  }
   return (
-    <NavigationContainer>
+    <NavigationContainer initialState={initialState} ref={ref}>
       <Drawer.Navigator drawerContent={drawerContent}>
         <Drawer.Screen name="Home" component={HomeScreen} />
         <Drawer.Screen name="Post" component={SinglePost} />
